@@ -6,6 +6,35 @@ When using Chinese in markdown and code, to speed the format switch of the halfw
 
 ---
 
+## List of All Mapped Keys（映射的个键列表）:
+
+`fn` key + 
+
+- `，` -> `,`
+- `。` -> `,`
+- `；` -> `;`
+- `：` -> `:`
+- `“` -> `"`
+- `”` -> `"`
+- `‘` -> `'`
+- `·` -> `` ` ``
+- `～` -> `~`
+- `！` -> `!` 
+- `？` -> `?`
+- `【` -> `[`
+- `】` -> `]`
+- `（` -> `(`
+- `）` -> `)`
+- `《` -> `<`
+- `》` -> `>`
+- `¥` -> `$` 
+- `……` -> `^`
+- `——` -> `_`
+
+Notes: in the case of the multi-key values, we should type the key as usual first and then press `fn` key. For instance, when mapping `……` to `^`, we should type  `shift` + `6` + `fn`.
+
+---
+
 ### Prerequisite（所需软件）: Karabiner
 
 ![karabiner-elements-logo](https://static.macupdate.com/products/25141/m/karabiner-elements-logo.png?v=1593415409)

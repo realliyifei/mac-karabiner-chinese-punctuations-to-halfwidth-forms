@@ -11,7 +11,7 @@ When using Chinese in markdown and code, to speed the format switch of the halfw
 `fn` key + 
 
 - `，` -> `,`
-- `。` -> `,`
+- `。` -> `.`
 - `；` -> `;`
 - `：` -> `:`
 - `“` -> `"`

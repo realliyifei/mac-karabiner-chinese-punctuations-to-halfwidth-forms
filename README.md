@@ -6,13 +6,13 @@ When using Chinese in markdown and code, to speed the format switch of the halfw
 
 ---
 
-### Prerequisites: Karabiner
+### Prerequisite（所需软件）: Karabiner
 
 ![karabiner-elements-logo](https://static.macupdate.com/products/25141/m/karabiner-elements-logo.png?v=1593415409)
 
 **Download Link:** <https://pqrs.org/osx/karabiner/>
 
-### Installation （安裝）:
+### Installation（安裝）:
 
 - Download the json file from github
 - Copy file to **~/.config/karabiner/assets/complex_modifications**

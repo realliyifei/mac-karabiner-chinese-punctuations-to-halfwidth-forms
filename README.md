@@ -58,6 +58,10 @@ Notes: in the case of the multi-key values, we should press *all* the usual keys
 
 ---
 
+## Limitations
+
+The mechanism of this script is to copy the corrosponding punucation to the clipboard and then paste to the foremost app. Therefore, **the clipboard history would be a bit messed up**. 
+
 ## Why don't we use text-replacement functions? 
 
 There are lots of fancy text-replacement tools such as MacOS bulit-in keyboard text-replacement and Alfred 4 script.

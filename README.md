@@ -54,7 +54,7 @@ Notes: in the case of the multi-key values, we should press *all* the usual keys
 
   (you may need to create the `helpers` folder at first)
 
-- Enable rule in the complex modifictaions tag in Karabiner, see [guide](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-complex-modifications/)
+- Enable rule in the complex modifictaions tag in Karabiner, see the [guide](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-complex-modifications/)
 
 ---
 

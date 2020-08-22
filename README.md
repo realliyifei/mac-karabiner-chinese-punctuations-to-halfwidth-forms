@@ -34,6 +34,8 @@ If you are a user of other fullwidth langauges (Japanese, Korean, etc.), you may
 - `¥` -> `$` 
 - `……` -> `^`
 - `——` -> `_`
+- `、` -> `\`
+- `｜` -> `|`
 
 Notes: in the case of the multi-key values, we should press *all* the usual keys plus the `fn` key. For instance, when mapping `……` to `^`, we should press  `shift` + `fn` + `6`.
 

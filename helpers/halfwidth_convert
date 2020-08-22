@@ -1,0 +1,17 @@
+#!/bin/zsh
+
+typeset -A halfwidth_chars=(  a ','  b '.'  c ';'
+                              d ':'  e "'"  f '"'
+                              g '`'  h '~'  i '!'
+                              j '?'  k '('  l ')'
+                              m '['  n ']'  o '{'
+                              p '}'  q '<'  r '>'
+                              s '$'  t '^'  u '_'
+                              v '\'  w '|'  x ' '
+                              y ' '  z ' '
+                            )
+
+
+key="$1"
+
+printf "\\U${halfwidth_chars[$key]}" | pbcopy

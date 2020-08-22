@@ -1,0 +1,539 @@
+{
+  "title": "fn半角符号切换  |  Map fn + chinese punctuations to their corresponding halfwidth forms",
+  "rules": [
+    {
+      "description": "Map fn + punctuations to their corresponding halfwidth forms",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": ["fn"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert a"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": ["fn"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert b"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": ["fn"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert c"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert d"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "mandatory": ["fn"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert e"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert f"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "grave_accent_and_tilde",
+            "modifiers": {
+              "mandatory": ["fn"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert g"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "grave_accent_and_tilde",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert h"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "1",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert i"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert j"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "9",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert k"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "0",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert l"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": ["fn"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert m"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "mandatory": ["fn"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert n"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert o"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert p"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert q"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert r"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "4",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert s"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "6",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert t"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "hyphen",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert u"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "backslash",
+            "modifiers": {
+              "mandatory": ["fn"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert v"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "backslash",
+            "modifiers": {
+              "mandatory": ["fn","left_shift"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert w"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [{
+              "key_code": "v",
+              "modifiers": "command"
+            }]
+          },
+          "parameters": {
+            "basic.to_delayed_action_delay_milliseconds": 100
+          }
+        }          
+      ]
+    }
+  ]
+}

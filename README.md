@@ -4,7 +4,7 @@ When using Chinese in markdown and code, to speed the format switch of the halfw
 
 当在markdown或者code中运用中文时，为了更快地转换半角/全角（港台：半形/全形）的符号输入，我们可以通过同时按着`fn`键把对应正在输入的符号变为半角形式。
 
-If you are a user of other fullwidth langauges (Japanese, Korean, etc.), you may need to modify both the `json` and `shell script` files for your use.
+Notes: If you are a user of other fullwidth langauges (Japanese, Korean, etc.), you may need to modify both the `json` and `shell script` files for your need.
 
 ---
 

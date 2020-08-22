@@ -35,7 +35,7 @@ If you are the user of other fullwidth langauges (Japanese, Korean, etc.), you m
 - `……` -> `^`
 - `——` -> `_`
 
-Notes: in the case of the multi-key values, we should press *all* the usual keys plus the `fn` key. For instance, when mapping `……` to `^`, we should press  `shift` + `6` + `fn`.
+Notes: in the case of the multi-key values, we should press *all* the usual keys plus the `fn` key. For instance, when mapping `……` to `^`, we should press  `shift` + `fn` + `6`.
 
 ---
 
@@ -57,4 +57,4 @@ Notes: in the case of the multi-key values, we should press *all* the usual keys
 
 There are lots of fancy text-replacement tools such as MacOS bulit-in keyboard text-replacement and Alfred 4 script.
 
-However, for the markdown and coding scenes of fullwidth langauges, the just-in-time (JIT) halfwidth conversion is more efficient and intuitive. By using Karabiner, we can type the halfwidth punctuations just by holding a hotkey and then switch back to fullwidth input automatically, instead of typing a replacement string each time.
+However, for the markdown and coding scenes of fullwidth langauges, the just-in-time (JIT) halfwidth conversion is more efficient and intuitive. By using Karabiner, we can type the halfwidth punctuations just by holding a hotkey and then it would switch back to fullwidth input automatically and immediately, instead of typing a verbose replacement string each time.

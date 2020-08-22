@@ -48,8 +48,11 @@ Notes: in the case of the multi-key values, we should press *all* the usual keys
 ## Installation（安裝）:
 
 - Copy `fn_halfwidth.json` file to **~/.config/karabiner/assets/complex_modifications**
-- Copy `halfwidth_convert` file to **~/.config/karabiner/assets/complex_modifications/helpers** (you may need to create the `helpers` folder at first)
-- Enable rule in the complex modifictaions tag in Karabiner
+- Copy `halfwidth_convert` file to **~/.config/karabiner/assets/complex_modifications/helpers** 
+
+  (you may need to create the `helpers` folder at first)
+
+- Enable rule in the complex modifictaions tag in Karabiner, see [guide](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-complex-modifications/)
 
 ---
 

@@ -57,6 +57,7 @@ Steps:
 4. Enable rule in the complex modifictaions tag in Karabiner, see the [guide](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-complex-modifications/)
 
 [1] It's recommended that you doanwload as zip file to preserve the permission, otherwise you may need to `chmod ug+x ~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert` in terminal to activate the shell script for the first time use
+
 [2] you may need to create the `helpers` folder at first
 
 ---

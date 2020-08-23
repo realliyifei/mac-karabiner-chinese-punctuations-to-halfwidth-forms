@@ -49,14 +49,17 @@ When using Chinese in markdown and code, to speed the format switch of the halfw
 
 ## Installation（安裝）:
 
-- Copy `fn_halfwidth.json` file to **~/.config/karabiner/assets/complex_modifications**
-- Copy `halfwidth_convert` file to **~/.config/karabiner/assets/complex_modifications/helpers** 
+Steps:
+
+1. Download them as zip file and then decompress [1]
+2. Copy `fn_halfwidth.json` file to **~/.config/karabiner/assets/complex_modifications**
+3. Copy `halfwidth_convert` file to **~/.config/karabiner/assets/complex_modifications/helpers** 
 
   (you may need to create the `helpers` folder at first)
 
-- Enable rule in the complex modifictaions tag in Karabiner, see the [guide](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-complex-modifications/)
+4. Enable rule in the complex modifictaions tag in Karabiner, see the [guide](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-complex-modifications/)
 
-*Note:* It's recommended that you doanwload them as zip file to preserve the permission, otherwise you may need to `chmod ug+x ~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert` in terminal to activate the shell script for the first time use.
+[1] It's recommended that you doanwload them as zip file to preserve the permission, otherwise you may need to `chmod ug+x ~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert` in terminal to activate the shell script for the first time use.
 
 ---
 

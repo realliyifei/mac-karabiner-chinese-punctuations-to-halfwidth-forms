@@ -4,7 +4,7 @@ When using Chinese in markdown and code, to speed the format switch of the halfw
 
 当在markdown或者code中运用中文时，为了更快地转换半角/全角（港台：半形/全形）的符号输入，我们可以通过同时按着`fn`键把对应正在输入的符号变为半角形式。
 
-Notes: If you are a user of other fullwidth langauges (Japanese, Korean, etc.), you may need to modify both the `json` and `shell script` files for your need.
+*Note:* If you are a user of other fullwidth langauges (Japanese, Korean, etc.), you may need to modify both the `json` and `shell script` files for your need.
 
 ---
 
@@ -37,7 +37,7 @@ Notes: If you are a user of other fullwidth langauges (Japanese, Korean, etc.), 
 - `、` -> `\`
 - `｜` -> `|`
 
-Notes: in the case of the multi-key values, we should press *all* the usual keys plus the `fn` key. For instance, when mapping `……` to `^`, we should press  `shift` + `fn` + `6`.
+*Note:* in the case of the multi-key values, we should press *all* the usual keys plus the `fn` key. For instance, when mapping `……` to `^`, we should press  `shift` + `fn` + `6`.
 
 ---
 
@@ -56,11 +56,9 @@ Notes: in the case of the multi-key values, we should press *all* the usual keys
 
 - Enable rule in the complex modifictaions tag in Karabiner, see the [guide](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-complex-modifications/)
 
+*Note:* It's recommended that you doanwload them as zip file to preserve the permission, otherwise you may need to `chmod ug+x ~/.config/karabiner/assets/complex_modifications/helpers/halfwidth_convert` in terminal to activate the shell script for the first time use.
+
 ---
-
-## Limitations
-
-The mechanism of this script is to copy the corrosponding punctuation to the clipboard and then paste to the foremost app. Therefore, **the clipboard history would be a bit messed up**. 
 
 ## Why don't we use text-replacement functions? 
 

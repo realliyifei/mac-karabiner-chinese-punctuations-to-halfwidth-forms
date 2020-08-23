@@ -21,6 +21,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -44,6 +47,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -67,6 +73,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -90,6 +99,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -113,6 +125,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -136,6 +151,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -159,6 +177,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -182,6 +203,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -205,6 +229,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -228,6 +255,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -251,6 +281,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -274,6 +307,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -297,6 +333,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -320,6 +359,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -343,6 +385,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -366,6 +411,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -389,6 +437,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -412,6 +463,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -435,6 +489,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -458,6 +515,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -481,6 +541,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -504,6 +567,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {
@@ -527,6 +593,9 @@
             "to_if_invoked": [{
               "key_code": "v",
               "modifiers": "command"
+            },
+            {
+              "shell_command": "pbpaste -pboard ruler | pbcopy" 
             }]
           },
           "parameters": {

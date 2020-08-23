@@ -14,4 +14,6 @@ typeset -A halfwidth_chars=(  a ','  b '.'  c ';'
 
 key="$1"
 
+# Copy current clipboard content to 'ruler' pboard
+pbpaste | pbcopy -pboard ruler
 printf "\\U${halfwidth_chars[$key]}" | pbcopy

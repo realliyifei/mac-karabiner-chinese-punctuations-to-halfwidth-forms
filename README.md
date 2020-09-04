@@ -62,6 +62,22 @@ Steps:
 
 ---
 
+## Limitations
+
+Since we use the `ruler pboard` here, sometimes the pastied characters come in a weird way in some special environments (I haven't figured out the mechanism yet). 
+
+You may delete all the lines 
+
+```
+,{
+  "shell_command": "pbpaste -pboard ruler | pbcopy" 
+}
+```
+
+in the `json` file to avoid this limitation, at the cost of messing up your `general pboard`.
+
+I will fix this bug in the future once I have time.
+
 ## Why don't we use text-replacement functions? 
 
 There are lots of fancy text-replacement tools such as MacOS bulit-in keyboard text-replacement and Alfred 4 script.

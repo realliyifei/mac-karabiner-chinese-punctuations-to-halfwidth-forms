@@ -64,7 +64,7 @@ Steps:
 
 ## Limitations
 
-Since we use the `ruler pboard` here, sometimes the pastied characters come in a weird way in some special environments (I haven't figured out the mechanism yet). 
+Since we use the `ruler pboard` here, sometimes the pasted characters come in a weird way in some special environments (I haven't figured out the mechanism yet). 
 
 You may delete all the lines 
 

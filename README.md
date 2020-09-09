@@ -1,4 +1,4 @@
-# Mac Karabiner Chinese Punctuations to Halfwidth Forms
+# Chinese Punctuations to Halfwidth Forms (Mac Karabiner)
 
 When using Chinese in markdown and code, to speed the format switch of the halfwidth/fullwidth input, we can map each inputting punctuation to its halfwidth form by pressing function key `fn`.
 

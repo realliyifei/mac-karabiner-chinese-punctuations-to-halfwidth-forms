@@ -43,7 +43,7 @@ When using Chinese in markdown and code, to speed the format switch of the halfw
 
 ## Prerequisite（所需软件）: Karabiner
 
-![karabiner-elements-logo](https://static.macupdate.com/products/25141/m/karabiner-elements-logo.png?v=1593415409)
+<img src="https://karabiner-elements.pqrs.org/images/logo.png" width="100" height="100">
 
 **Download Link:** <https://pqrs.org/osx/karabiner/>
 
